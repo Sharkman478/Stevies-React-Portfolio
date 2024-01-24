@@ -8,7 +8,6 @@ import {
   MDBBtn
 } from 'mdb-react-ui-kit';
 
-
 // TODO: HOW TO STICK FOOTER TO BOTTOM OF THE PAGE AND KEEP IT THERE
 
 export default function Footer() {
