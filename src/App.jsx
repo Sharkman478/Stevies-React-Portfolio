@@ -12,10 +12,10 @@ function App() {
   return (
     <>
       <Header />
-      <Footer />
       <Contact />
       <Project />
       <Outlet />
+      <Footer />
     </>
   );
 }

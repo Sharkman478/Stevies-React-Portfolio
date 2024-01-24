@@ -5,9 +5,9 @@ import App from "./App.jsx";
 import "./assets/index.css";
 import AboutMe from "./components/pages/AboutMe.jsx";
 import Contact from "./components/pages/ContactPage.jsx";
-import Resume from "./components/pages/Resume.jsx";
+import Projects from "./components/pages/Projects.jsx";
 import ErrorPage from "./components/pages/ErrorPage.jsx";
-import HomePage from "./components/pages/HomePage.jsx";
+import Resume from "./components/pages/Resume.jsx";
 
 const router = createBrowserRouter([
   {
@@ -15,12 +15,9 @@ const router = createBrowserRouter([
     element: <App />,
     errorElement: <ErrorPage />,
     children: [
-      {
-        index: true,
-        element: <HomePage />,
-      },
       { path: '/AboutMe', element: <AboutMe /> },
       { path: '/ContactPage', element: <Contact /> },
+      { path: '/Projects', element: <Projects /> },
       { path: '/Resume', element: <Resume /> },
     ],
   },

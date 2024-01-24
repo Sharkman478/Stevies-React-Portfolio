@@ -1,0 +1,25 @@
+body{
+    background-image: url('../assets/SpaceBackground.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.Project1Img {
+    max-height: 70%;
+    max-width: 70%;
+    
+}
+.Project2Img {
+    max-height: 80%;
+    max-width: 80%;
+    
+}
+#Text {
+    color: White;
+    font-size: 20px;
+}
+.MyPhoto{
+    max-height: 60%;
+    max-width: 70%; 
+}
